@@ -1,3 +1,5 @@
+package lesson_01;
+
 public class CountryTest {
     public static void main(String[] args) {
         Car car = new Car();
@@ -8,7 +10,7 @@ public class CountryTest {
         country.city = "San Fransisco";
         country.cityPopulation = 2000000;
 
-        System.out.println("Country Test: " + country.name + " worth to visit. " + "Best city for IT developers is " + country.city);
+        System.out.println("lesson_01.Country Test: " + country.name + " worth to visit. " + "Best city for IT developers is " + country.city);
 
     }
 }

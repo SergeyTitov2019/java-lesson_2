@@ -1,3 +1,5 @@
+package lesson_01;
+
 public class Car {
     String brand;
     String type;
