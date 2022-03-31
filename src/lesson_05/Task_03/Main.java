@@ -1,4 +1,4 @@
-package Task_03;
+package lesson_05.Task_03;
 
 public class Main {
     static CreditCard card1 = new CreditCard();
