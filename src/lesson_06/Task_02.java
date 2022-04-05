@@ -16,6 +16,6 @@ public class Task_02 {
         String[] fruits = {"Apple", "Plum", "Mango", "Pineapple", "Orange"};
         String[] newFruits = Arrays.copyOf(fruits, fruits.length);
         newFruits[2] = "Banana";
-        System.out.print("TTT");
+        System.out.print("Fruits:" + Arrays.toString(newFruits));
     }
 }
