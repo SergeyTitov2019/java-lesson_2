@@ -14,14 +14,24 @@ import java.util.Arrays;
 
 public class GlobalRating {
     static Score[] data = new Score[4];
-    static Score views = data[1];
-    public int actions;
-    public int sharings;
-    public int buyings;
+    static {
+        Score s1 = new Score();
+        Score s2 = new Score();
+        Score s3 = new Score();
+        Score s4 = new Score();
+        s1.category = "views";
+        s2.category = "actions";
+        s3.category = "sharings";
+        s4.category = "buyings";
 
-    public static void main(String[] args) {
-        Score views = data[1];
-        System.out.print(views);
+        data[0] = s1;
+        data[1] = s2;
+        data[2] = s3;
+        data[3] = s4;
     }
 
+    public static void main(String[] args) {
+//        System.out.print("arr:" + Arrays.toString( data));
+//        System.out.print("data:" + data);
+    }
 }

@@ -14,12 +14,12 @@ package lesson_08.task02;
 
 import java.util.Arrays;
 
+
 public class Score {
     public String category;
-    static double[] statistic = new double[10];
+    double[] statistic = new double[5];
 
-
-    public static void main(String[] args){
+    {
         double a;
         for (int i = 0; i < statistic.length; i++) {
             a = (Math.random()*20 - 10)*10;
