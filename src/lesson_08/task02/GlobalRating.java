@@ -11,9 +11,9 @@ package lesson_08.task02;
 
 public class GlobalRating {
 
-    public Score[] data;
+    public static Score[] data;
 
-    {
+    static {
         data = new Score[4];
         data[0] = new Score();
         data[1] = new Score();
