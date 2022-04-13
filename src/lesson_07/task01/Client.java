@@ -14,12 +14,5 @@ public class Client {
     static boolean credit;
     static boolean sumEnough;
 
-    public static void main(String[] args) {
-        if(sumEnough ){
-            credit = true;
-        }
-
-    }
-
 
 }
